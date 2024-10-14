@@ -380,6 +380,16 @@ describe('#SchemaService', () => {
                 expect(result).toBe('default-value');
             });
 
+            it('should use null value when neither type nor default is specified', () => {
+                const defaultSchema = {};
+                const result = service.generateObjectFromSchema(
+                    defaultSchema,
+                    defaultSchema
+                );
+
+                expect(result).toBeNull();
+            });
+
             it('should not use default value when type is specified', () => {
                 const defaultSchema = {
                     default: 'default-value',
