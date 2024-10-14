@@ -1,3 +1,8 @@
+# Unit tests coverage for the JSON Schema Service
+
+![image](https://github.com/user-attachments/assets/275cab1a-69d8-4d1c-81a1-60b3329b9d5a)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
